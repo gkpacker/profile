@@ -1,7 +1,7 @@
 $(function(){
     $('#nav').hover(function(){
-        $(this).animate({width:'100px'},500);
+        $(this).animate({left:'0px'},500);
     },function(){
-        $(this).animate({width:'0px'},500);
+        $(this).animate({left:'-100px'},500);
     }).trigger('mouseleave');
 });
