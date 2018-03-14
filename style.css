@@ -71,7 +71,7 @@ p {
 
 }
 
-.sidebar-btn {
+.nav-btn {
   padding: 10px 20px;
   text-decoration: none;
   text-align: center;
@@ -112,11 +112,11 @@ p {
   height: 30px;
 }
 
-#sidebar > a {
+#nav > a {
   font-size: 37px;
 }
 
-#sidebar > a:hover {
+#nav > a:hover {
   font-size: 40px;
 }
 
@@ -135,7 +135,8 @@ p {
   opacity: 0.8;
 }
 
-#sidebar {
+#nav {
+  overflow-x: hidden;
   text-align: center;
   position: fixed;
   width: 100px;
