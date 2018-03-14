@@ -1,5 +1,5 @@
 body {
-  background-color: #49516F;
+  background-color: #086788;
   font-family: 'Roboto', sans-serif;
   color: rgb(180, 180, 180);
   font-size: 16px;
@@ -10,18 +10,15 @@ h1 {
   color: #7392B7;
 }
 
-div {
-
-}
-
 a {
-  color: #A1CDA8;
+  color: #FFF1D0;
   opacity: 0.8;
+  font-size: 35px;
 }
 
 a:hover {
   opacity: 1.0;
-  color: #A1CDA8;
+  color: #FFF1D0;
 }
 
 li {
@@ -43,7 +40,15 @@ p {
 }
 
 .btn {
-  background-color: #7392B7;
+  background-color: #06AED5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.btn-red {
+  background-color: red;
   padding: 10px 20px;
   border-radius: 4px;
   margin: 20px;
@@ -51,9 +56,9 @@ p {
 }
 
 .sidebar-btn {
-  /*padding: 10px 20px;*/
+  padding: 10px 20px;
   border-radius: 4px;
-  margin: 20px;
+  /*margin: 20px;*/
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -77,24 +82,45 @@ p {
   height: 275;
 }
 
+.iconize-img {
+  width: 20px;
+  height: 20px;
+}
+
+#summary > a {
+  color: white;
+  font-size: 20px;
+}
+
+#sidebar > a {
+  font-size: 40px;
+}
+
 #img-circle {
   border-radius: 50%;
   width: 200px;
 }
 
 #footer {
-  padding: 10px 50px;
+  text-align: center;
+  background-color: white;
+  width: 0 auto;
+}
+
+#summary > h2 {
+  opacity: 0.8;
 }
 
 #sidebar {
+  text-align: center;
   position: fixed;
   width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #4C4B63;                          /* White background */
+  background-color: #022B3A;                          /* White background */
   padding: 30px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
 }
 
