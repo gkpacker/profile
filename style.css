@@ -76,6 +76,19 @@ p {
 #footer {
   padding: 10px 50px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .card {
@@ -95,13 +108,3 @@ p {
   }
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-#page-content {
-  margin-left: 300px;
-}
