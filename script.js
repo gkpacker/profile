@@ -1,7 +1,7 @@
-$('button').toggle(
-
-function() {
-    $('#sidebar').css('left', '0')
-}, function() {
-    $('#sidebar').css('left', '200px')
-})
+$(function(){
+    $('#sidebar').hover(function(){
+        $(this).animate({width:'200px'},500);
+    },function(){
+        $(this).animate({width:'35px'},500);
+    }).trigger('mouseleave');
+});

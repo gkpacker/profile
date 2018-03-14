@@ -47,21 +47,37 @@ p {
   text-decoration: none;
 }
 
+.img-inverter {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
 .btn-red {
   background-color: red;
   padding: 10px 20px;
   border-radius: 4px;
   margin: 20px;
   text-decoration: none;
+  opacity: 0.8;
+}
+
+.btn-red:hover {
+  opacity: 1
+  background-color: red;
+
 }
 
 .sidebar-btn {
   padding: 10px 20px;
-  border-radius: 4px;
   text-decoration: none;
   text-align: center;
-  font-weight: bold;
   font-size: 20px;
+  height: auto;
+  margin: auto, 0px;
 }
 
 .card {
@@ -91,7 +107,16 @@ p {
   font-size: 20px;
 }
 
+#ruby-text {
+  color: #A31621;
+  height: 30px;
+}
+
 #sidebar > a {
+  font-size: 37px;
+}
+
+#sidebar > a:hover {
   font-size: 40px;
 }
 
