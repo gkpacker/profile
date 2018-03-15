@@ -39,6 +39,12 @@ p {
   text-align: justify;
 }
 
+.avatar-mini {
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
 .btn {
   background-color: #0A369D;
   padding: 10px 20px;
@@ -48,12 +54,7 @@ p {
 }
 
 .img-inverter {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+  transform: scaleX(-1);
 }
 
 .btn-red {
@@ -68,7 +69,6 @@ p {
 .btn-red:hover {
   opacity: 1
   background-color: red;
-
 }
 
 .nav-btn {
